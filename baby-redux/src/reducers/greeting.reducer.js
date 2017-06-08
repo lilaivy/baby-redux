@@ -3,8 +3,8 @@ import { CHANGE_GREETING, CHANGE_NAME } from '../constants/constant';
 
 
 let initialState = {
-    name: 'Stranger ?',
-    greeting: 'What up, '
+    name: 'Stranger',
+    greeting: 'What up '
 };
 
 export default function GreetingApp(state = initialState, action) {

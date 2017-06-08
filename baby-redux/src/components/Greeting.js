@@ -6,7 +6,7 @@ export default function Greeting(props) {
 
     return (
         <div>
-            <h1>{greeting}{name}</h1>
+            <h1>{greeting},  {name}!</h1>
             <form>
                 <input type="text" value={greeting}
                     onChange={event => {changeGreeting(event.target.value);
