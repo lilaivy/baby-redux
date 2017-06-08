@@ -1,15 +1,15 @@
-import * as actions from '../constants/constant';
+import * as action from '../constants/constant';
 
 export function changeGreeting(payload) {
     return {
-        type: actions.CHANGE_GREETING,
+        type: action.CHANGE_GREETING,
         payload
     };
 }
 
 export function changeName(payload) {
     return{
-        type: actions.CHANGE_NAME,
+        type: action.CHANGE_NAME,
         payload
     };
 }
