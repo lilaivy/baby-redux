@@ -2,7 +2,7 @@ import { CHANGE_GREETING, CHANGE_NAME } from '../constants/constant';
 
 
 
-let initialState = {
+const initialState = {
     name: 'Stranger',
     greeting: 'What up '
 };
